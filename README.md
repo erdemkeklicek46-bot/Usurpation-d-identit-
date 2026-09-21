@@ -1,0 +1,1235 @@
+[index.html.html](https://github.com/user-attachments/files/32455366/index.html.html)
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style1.css">
+
+    <title>Protéger son identité numérique</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- =========================
+         NAVIGATION
+    ========================== -->
+
+    <header>
+
+        <nav class="navbar">
+
+            <div class="logo">
+                <span></span>
+            </div>
+
+            <ul class="menu">
+
+                <li>
+                    <a href="#accueil">Accueil</a>
+                </li>
+
+                <li>
+                    <a href="#definition">Comprendre</a>
+                </li>
+
+                <li>
+                    <a href="#menaces">Menaces</a>
+                </li>
+
+                <li>
+                    <a href="#cas-reels">Cas réels</a>
+                </li>
+
+                <li>
+                    <a href="#protection">Protection</a>
+                </li>
+
+                <li>
+                    <a href="#urgence">Que faire ?</a>
+                </li>
+
+                <li>
+                    <a href="#quiz">Quiz</a>
+                </li>
+
+            </ul>
+
+        </nav>
+
+    </header>
+
+
+    <main>
+
+        <!-- =========================
+             ACCUEIL
+        ========================== -->
+
+        <section id="accueil" class="hero">
+
+            <div class="hero-content">
+
+                <p class="tag">
+                    CYBERSÉCURITÉ • BUT R&T
+                </p>
+
+                <h1>
+                    Protéger son
+                    <span>identité numérique</span>
+                </h1>
+
+                <p class="hero-text">
+                    Quelles pratiques adopter pour éviter une
+                    usurpation d'identité sur Internet ?
+                </p>
+
+                <a href="#definition" class="button">
+                    Découvrir le sujet
+                </a>
+
+            </div>
+
+
+            <div class="security-card">
+
+                <div class="lock">
+                    🔐
+                </div>
+
+                <h3>
+                    Votre identité numérique
+                </h3>
+
+                <p>
+                    Nom, adresse e-mail, photos, identifiants,
+                    mots de passe et documents personnels sont
+                    des informations qui doivent être protégées.
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             DEFINITION
+        ========================== -->
+
+        <section id="definition" class="section">
+
+            <div class="section-title">
+
+                <p class="tag">
+                    01 • COMPRENDRE
+                </p>
+
+                <h2>
+                    Qu'est-ce que l'usurpation d'identité ?
+                </h2>
+
+            </div>
+
+
+            <div class="definition">
+
+                <div>
+
+                    <p>
+                        L'usurpation d'identité consiste à utiliser les
+						informations personnelles d'une personne sans son
+						autorisation afin de se faire passer pour elle ou
+						d'agir en son nom.
+                    </p>
+
+                    <p>
+                        Dans un environnement numérique, un attaquant peut
+						récupérer différentes informations afin de créer de
+						faux comptes, accéder à des services ou réaliser
+						des actions frauduleuses.
+                    </p>
+
+                </div>
+
+
+                <div class="warning-box">
+
+                    <h3>
+                        ⚠️ Informations sensibles
+                    </h3>
+
+                    <ul>
+
+                        <li>
+                            Nom et prénom
+                        </li>
+
+                        <li>
+                            Adresse e-mail
+                        </li>
+
+                        <li>
+                            Numéro de téléphone
+                        </li>
+
+                        <li>
+                            Identifiants et mots de passe
+                        </li>
+
+                        <li>
+                            Documents d'identité
+                        </li>
+
+                        <li>
+                            Données bancaires
+                        </li>
+
+                    </ul>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             MENACES
+        ========================== -->
+
+        <section id="menaces" class="section dark-section">
+
+            <div class="section-title">
+
+                <p class="tag">
+                    02 • MENACES
+                </p>
+
+                <h2>
+                    Comment les informations sont-elles récupérées ?
+                </h2>
+
+            </div>
+
+
+            <div class="cards">
+
+
+                <!-- PHISHING -->
+
+                <article class="card">
+
+                    <div class="card-number">
+                        01
+                    </div>
+
+                    <h3>
+                        Phishing
+                    </h3>
+
+                    <p>
+                        L'hameçonnage consiste à se faire passer
+                        pour un organisme ou un contact de confiance
+                        afin de récupérer des informations personnelles.
+                    </p>
+
+                    <ul>
+
+                        <li>
+                            Faux e-mails
+                        </li>
+
+                        <li>
+                            Faux SMS
+                        </li>
+
+                        <li>
+                            Faux sites Internet
+                        </li>
+
+                        <li>
+                            Liens frauduleux
+                        </li>
+
+                    </ul>
+
+                </article>
+
+
+                <!-- FUITES -->
+
+                <article class="card">
+
+                    <div class="card-number">
+                        02
+                    </div>
+
+                    <h3>
+                        Fuites de données
+                    </h3>
+
+                    <p>
+                        Une cyberattaque contre une organisation peut
+                        entraîner la divulgation de données personnelles
+                        appartenant à ses utilisateurs.
+                    </p>
+
+                    <ul>
+
+                        <li>
+                            Adresses e-mail
+                        </li>
+
+                        <li>
+                            Numéros de téléphone
+                        </li>
+
+                        <li>
+                            Identifiants
+                        </li>
+
+                        <li>
+                            Informations personnelles
+                        </li>
+
+                    </ul>
+
+                </article>
+
+
+                <!-- RESEAUX SOCIAUX -->
+
+                <article class="card">
+
+                    <div class="card-number">
+                        03
+                    </div>
+
+                    <h3>
+                        Réseaux sociaux
+                    </h3>
+
+                    <p>
+                        Les informations publiées sur les réseaux
+                        sociaux peuvent permettre de reconstituer
+                        une partie de l'identité numérique.
+                    </p>
+
+                    <ul>
+
+                        <li>
+                            Date de naissance
+                        </li>
+
+                        <li>
+                            Photos
+                        </li>
+
+                        <li>
+                            Lieu d'études
+                        </li>
+
+                        <li>
+                            Habitudes de vie
+                        </li>
+
+                    </ul>
+
+                </article>
+
+
+                <!-- MOTS DE PASSE -->
+
+                <article class="card">
+
+                    <div class="card-number">
+                        04
+                    </div>
+
+                    <h3>
+                        Mots de passe compromis
+                    </h3>
+
+                    <p>
+                        Réutiliser le même mot de passe sur plusieurs
+                        services augmente fortement les conséquences
+                        d'une compromission.
+                    </p>
+
+                    <ul>
+
+                        <li>
+                            Réutilisation
+                        </li>
+
+                        <li>
+                            Mots de passe faibles
+                        </li>
+
+                        <li>
+                            Fuites de données
+                        </li>
+
+                        <li>
+                            Plusieurs comptes exposés
+                        </li>
+
+                    </ul>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             CAS REELS
+        ========================== -->
+
+        <section id="cas-reels" class="section real-cases">
+
+            <div class="section-title">
+
+                <p class="tag">
+                    03 • CAS RÉELS
+                </p>
+
+                <h2>
+                    Des exemples d'attaques qui ont réellement eu lieu
+                </h2>
+
+                <p>
+                    L'usurpation d'identité n'est pas seulement une
+                    menace théorique. Plusieurs incidents réels
+                    montrent comment des cybercriminels peuvent
+                    exploiter les données personnelles et la confiance
+                    des utilisateurs.
+                </p>
+
+            </div>
+
+
+            <div class="real-cases-grid">
+
+
+                <!-- CAS 1 -->
+
+                <article class="real-case">
+
+                    <div class="case-top">
+
+                        <span class="case-year">
+                            2024
+                        </span>
+
+                        <span class="case-country">
+                            🇫🇷 France
+                        </span>
+
+                    </div>
+
+
+                    <div class="case-icon">
+                        🏛️
+                    </div>
+
+
+                    <h3>
+                        Usurpation de Cybermalveillance.gouv.fr
+                    </h3>
+
+
+                    <p>
+                        En 2024, des escrocs ont envoyé des messages
+                        frauduleux en se faisant passer pour
+                        Cybermalveillance.gouv.fr.
+                    </p>
+
+                    <p>
+                        Les attaquants cherchaient à profiter de la
+                        confiance associée à cet organisme afin de
+                        tromper les victimes et d'obtenir des
+                        informations personnelles.
+                    </p>
+
+
+                    <div class="case-info">
+
+                        <strong>
+                            Technique utilisée
+                        </strong>
+
+                        <span>
+                            Usurpation d'un organisme officiel
+                            et phishing
+                        </span>
+
+                    </div>
+
+
+                    <div class="case-info">
+
+                        <strong>
+                            Objectif
+                        </strong>
+
+                        <span>
+                            Récupérer des informations personnelles
+                        </span>
+
+                    </div>
+
+
+                    <div class="case-lesson">
+
+                        <strong>
+                            À retenir :
+                        </strong>
+
+                        Vérifier l'expéditeur et accéder directement
+                        au site officiel plutôt que de suivre un lien
+                        reçu par message.
+
+                    </div>
+
+                </article>
+
+
+                <!-- CAS 2 -->
+
+                <article class="real-case">
+
+                    <div class="case-top">
+
+                        <span class="case-year">
+                            2017
+                        </span>
+
+                        <span class="case-country">
+                            🇺🇸 États-Unis
+                        </span>
+
+                    </div>
+
+
+                    <div class="case-icon">
+                        🗄️
+                    </div>
+
+
+                    <h3>
+                        La fuite de données Equifax
+                    </h3>
+
+
+                    <p>
+                        En 2017, l'entreprise américaine Equifax a
+                        subi une importante cyberattaque ayant
+                        entraîné la fuite de nombreuses données
+                        personnelles.
+                    </p>
+
+                    <p>
+                        Les données de millions de personnes ont été
+                        exposées, notamment des noms, dates de naissance,
+                        adresses et numéros de sécurité sociale.
+                    </p>
+
+
+                    <div class="case-info">
+
+                        <strong>
+                            Technique utilisée
+                        </strong>
+
+                        <span>
+                            Exploitation d'une vulnérabilité informatique
+                        </span>
+
+                    </div>
+
+
+                    <div class="case-info">
+
+                        <strong>
+                            Conséquence
+                        </strong>
+
+                        <span>
+                            Exposition massive de données personnelles
+                        </span>
+
+                    </div>
+
+
+                    <div class="case-lesson">
+
+                        <strong>
+                            À retenir :
+                        </strong>
+
+                        Une fuite de données peut exposer les
+                        utilisateurs à des tentatives de fraude
+                        et d'usurpation.
+
+                    </div>
+
+                </article>
+
+
+                <!-- CAS 3 -->
+
+                <article class="real-case">
+
+                    <div class="case-top">
+
+                        <span class="case-year">
+                            Cas récurrents
+                        </span>
+
+                        <span class="case-country">
+                            🌐 Internet
+                        </span>
+
+                    </div>
+
+
+                    <div class="case-icon">
+                        👤
+                    </div>
+
+
+                    <h3>
+                        Les faux profils sur les réseaux sociaux
+                    </h3>
+
+
+                    <p>
+                        Des personnes malveillantes peuvent créer
+                        des comptes en utilisant le nom, les photos
+                        ou certaines informations publiques d'une
+                        autre personne.
+                    </p>
+
+                    <p>
+                        Le faux profil peut ensuite être utilisé
+                        pour contacter des proches, publier des
+                        messages ou tenter de tromper d'autres
+                        utilisateurs.
+                    </p>
+
+
+                    <div class="case-info">
+
+                        <strong>
+                            Technique utilisée
+                        </strong>
+
+                        <span>
+                            Collecte d'informations publiques
+                        </span>
+
+                    </div>
+
+
+                    <div class="case-info">
+
+                        <strong>
+                            Objectif
+                        </strong>
+
+                        <span>
+                            Se faire passer pour une autre personne
+                        </span>
+
+                    </div>
+
+
+                    <div class="case-lesson">
+
+                        <strong>
+                            À retenir :
+                        </strong>
+
+                        Limiter les informations personnelles publiques
+                        réduit les possibilités d'usurpation.
+
+                    </div>
+
+                </article>
+
+
+                <!-- CAS 4 -->
+
+                <article class="real-case">
+
+                    <div class="case-top">
+
+                        <span class="case-year">
+                            2017
+                        </span>
+
+                        <span class="case-country">
+                            🇺🇸 États-Unis
+                        </span>
+
+                    </div>
+
+
+                    <div class="case-icon">
+                        🌐
+                    </div>
+
+
+                    <h3>
+                        Les faux sites après l'affaire Equifax
+                    </h3>
+
+
+                    <p>
+                        Après la fuite de données Equifax, des escrocs
+                        ont créé de faux sites Internet ressemblant
+                        au site officiel.
+                    </p>
+
+                    <p>
+                        Ces sites pouvaient tromper les victimes qui
+                        cherchaient des informations sur l'incident
+                        et les pousser à communiquer certaines données.
+                    </p>
+
+
+                    <div class="case-info">
+
+                        <strong>
+                            Technique utilisée
+                        </strong>
+
+                        <span>
+                            Faux site Internet et ingénierie sociale
+                        </span>
+
+                    </div>
+
+
+                    <div class="case-info">
+
+                        <strong>
+                            Objectif
+                        </strong>
+
+                        <span>
+                            Tromper les victimes et récupérer des informations
+                        </span>
+
+                    </div>
+
+
+                    <div class="case-lesson">
+
+                        <strong>
+                            À retenir :
+                        </strong>
+
+                        Vérifier l'adresse exacte d'un site avant de
+                        communiquer des informations personnelles.
+
+                    </div>
+
+                </article>
+
+            </div>
+
+
+            <!-- BILAN DES CAS REELS -->
+
+            <div class="cases-summary">
+
+                <h3>
+                    Ce que ces cas nous apprennent
+                </h3>
+
+
+                <div class="summary-grid">
+
+                    <div>
+
+                        <span>
+                            01
+                        </span>
+
+                        <p>
+                            Les cybercriminels exploitent souvent
+                            la confiance des utilisateurs.
+                        </p>
+
+                    </div>
+
+
+                    <div>
+
+                        <span>
+                            02
+                        </span>
+
+                        <p>
+                            Les données personnelles peuvent être
+                            utilisées longtemps après leur vol.
+                        </p>
+
+                    </div>
+
+
+                    <div>
+
+                        <span>
+                            03
+                        </span>
+
+                        <p>
+                            Vérifier une information avant d'agir
+                            est une mesure de sécurité importante.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             PROTECTION
+        ========================== -->
+
+        <section id="protection" class="section">
+
+            <div class="section-title">
+
+                <p class="tag">
+                    04 • PROTECTION
+                </p>
+
+                <h2>
+                    Les bonnes pratiques
+                </h2>
+
+                <p>
+                    Quelques mesures simples permettent de réduire
+                    les risques liés à l'usurpation d'identité.
+                </p>
+
+            </div>
+
+
+            <div class="protection-grid">
+
+
+                <article class="protection-item">
+
+                    <span>
+                        🔑
+                    </span>
+
+                    <h3>
+                        Mots de passe uniques
+                    </h3>
+
+                    <p>
+                        Utiliser un mot de passe différent pour
+                        chaque service limite les conséquences
+                        d'une fuite de données.
+                    </p>
+
+                </article>
+
+
+                <article class="protection-item">
+
+                    <span>
+                        🛡️
+                    </span>
+
+                    <h3>
+                        Double authentification
+                    </h3>
+
+                    <p>
+                        La double authentification ajoute une étape
+                        supplémentaire lors de la connexion.
+                    </p>
+
+                </article>
+
+
+                <article class="protection-item">
+
+                    <span>
+                        📩
+                    </span>
+
+                    <h3>
+                        Vérifier les messages
+                    </h3>
+
+                    <p>
+                        Vérifier l'expéditeur, le contenu et l'adresse
+                        du site avant de cliquer sur un lien.
+                    </p>
+
+                </article>
+
+
+                <article class="protection-item">
+
+                    <span>
+                        👤
+                    </span>
+
+                    <h3>
+                        Limiter les informations
+                    </h3>
+
+                    <p>
+                        Éviter de publier inutilement des informations
+                        personnelles sur Internet.
+                    </p>
+
+                </article>
+
+
+                <article class="protection-item">
+
+                    <span>
+                        📄
+                    </span>
+
+                    <h3>
+                        Protéger ses documents
+                    </h3>
+
+                    <p>
+                        Vérifier le destinataire avant de transmettre
+                        une pièce d'identité ou un document sensible.
+                    </p>
+
+                </article>
+
+
+                <article class="protection-item">
+
+                    <span>
+                        🔄
+                    </span>
+
+                    <h3>
+                        Faire les mises à jour
+                    </h3>
+
+                    <p>
+                        Les mises à jour corrigent notamment des
+                        vulnérabilités pouvant être exploitées.
+                    </p>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             EXEMPLE PHISHING
+        ========================== -->
+
+        <section class="section phishing-section">
+
+            <div class="section-title">
+
+                <p class="tag">
+                    05 • PHISHING
+                </p>
+
+                <h2>
+                    Saurez-vous repérer un message suspect ?
+                </h2>
+
+            </div>
+
+
+            <div class="fake-message">
+
+                <div class="message-header">
+
+                    <strong>
+                        Service Client
+                    </strong>
+
+                    <span>
+                        ⚠️
+                    </span>
+
+                </div>
+
+
+                <p>
+                    Bonjour,
+                </p>
+
+
+                <p>
+                    Une activité inhabituelle a été détectée sur
+                    votre compte. Vous devez vérifier vos informations
+                    immédiatement afin d'éviter la suspension de votre
+                    compte.
+                </p>
+
+
+                <button onclick="showPhishingAnswer()">
+                    Vérifier le message
+                </button>
+
+
+                <p id="phishing-answer">
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             QUE FAIRE
+        ========================== -->
+
+        <section id="urgence" class="section dark-section">
+
+            <div class="section-title">
+
+                <p class="tag">
+                    06 • RÉACTION
+                </p>
+
+                <h2>
+                    Que faire en cas d'usurpation ?
+                </h2>
+
+            </div>
+
+
+            <div class="steps">
+
+
+                <div class="step">
+
+                    <strong>
+                        01
+                    </strong>
+
+                    <p>
+                        Sécuriser les comptes concernés.
+                    </p>
+
+                </div>
+
+
+                <div class="step">
+
+                    <strong>
+                        02
+                    </strong>
+
+                    <p>
+                        Changer les mots de passe compromis.
+                    </p>
+
+                </div>
+
+
+                <div class="step">
+
+                    <strong>
+                        03
+                    </strong>
+
+                    <p>
+                        Activer la double authentification si cela n'est pas fait.
+                    </p>
+
+                </div>
+
+
+                <div class="step">
+
+                    <strong>
+                        04
+                    </strong>
+
+                    <p>
+                        Conserver les preuves et captures d'écran.
+                    </p>
+
+                </div>
+
+
+                <div class="step">
+
+                    <strong>
+                        05
+                    </strong>
+
+                    <p>
+                        Signaler les comptes ou contenus frauduleux.
+                    </p>
+
+                </div>
+
+
+                <div class="step">
+
+                    <strong>
+                        06
+                    </strong>
+
+                    <p>
+                        Effectuer les démarches auprès des organismes
+                        concernés.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             QUIZ
+        ========================== -->
+
+        <section id="quiz" class="section">
+
+            <div class="section-title">
+
+                <p class="tag">
+                    07 • QUIZ
+                </p>
+
+                <h2>
+                    Testez vos connaissances
+                </h2>
+
+            </div>
+
+
+            <div class="quiz-box">
+
+                <h3>
+                    Quel comportement est le plus sûr face à un
+                    e-mail demandant votre mot de passe ?
+                </h3>
+
+
+                <button onclick="checkAnswer(false)">
+                    Répondre directement au message
+                </button>
+
+
+                <button onclick="checkAnswer(true)">
+                    Accéder au service depuis son site officiel
+                </button>
+
+
+                <button onclick="checkAnswer(false)">
+                    Cliquer immédiatement sur le lien
+                </button>
+
+
+                <p id="quiz-result">
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             SOURCES
+        ========================== -->
+
+        <section class="section sources">
+
+            <div class="section-title">
+
+                <p class="tag">
+                    08 • SOURCES
+                </p>
+
+                <h2>
+                    Sources utilisées
+                </h2>
+
+            </div>
+
+
+            <ul>
+
+                <li>
+                    ANSSI — Guide d'hygiène informatique
+                </li>
+
+                <li>
+                    CNIL — Protection des données personnelles
+                </li>
+
+                <li>
+                    Cybermalveillance.gouv.fr — Usurpation d'identité
+                </li>
+
+                <li>
+                    Cybermalveillance.gouv.fr — Phishing
+                </li>
+
+                <li>
+                    FTC — Equifax Data Breach
+                </li>
+
+                <li>
+                    Service-Public.fr — Usurpation d'identité
+                </li>
+
+            </ul>
+
+        </section>
+
+    </main>
+
+
+    <!-- =========================
+         FOOTER
+    ========================== -->
+
+    <footer>
+
+        <p>
+            BUT Réseaux & Télécommunications
+        </p>
+
+        <p>
+            Sensibilisation à la protection de l'identité numérique
+        </p>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
