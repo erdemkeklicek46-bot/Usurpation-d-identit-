@@ -1,0 +1,889 @@
+/* ================================
+   CONFIGURATION GENERALE
+================================ */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+
+    background: #f5f7fa;
+
+    color: #172033;
+
+    line-height: 1.6;
+}
+
+
+/* ================================
+   NAVIGATION
+================================ */
+
+header {
+    background: #101827;
+
+    position: sticky;
+
+    top: 0;
+
+    z-index: 1000;
+}
+
+.navbar {
+    max-width: 1200px;
+
+    margin: center;
+
+    padding: 20px 30px;
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+
+    font-weight: bold;
+
+    color: white;
+}
+
+.logo span {
+    color: #35d07f;
+}
+
+.menu {
+    list-style: none;
+
+    display: flex;
+
+    gap: 22px;
+}
+
+.menu a {
+    text-decoration: none;
+
+    color: #dce3ee;
+
+    font-size: 14px;
+
+    transition: 0.3s;
+}
+
+.menu a:hover {
+    color: #35d07f;
+}
+
+
+/* ================================
+   ELEMENTS GENERAUX
+================================ */
+
+.tag {
+    color: #35d07f;
+
+    font-size: 13px;
+
+    font-weight: bold;
+
+    letter-spacing: 2px;
+
+    margin-bottom: 15px;
+}
+
+.section {
+    max-width: 1200px;
+
+    margin: auto;
+
+    padding: 100px 30px;
+}
+
+.section-title {
+    max-width: 850px;
+
+    margin-bottom: 55px;
+}
+
+.section-title h2 {
+    font-size: 42px;
+
+    line-height: 1.15;
+
+    margin-bottom: 20px;
+}
+
+
+/* ================================
+   ACCUEIL
+================================ */
+
+.hero {
+    min-height: 650px;
+
+    background:
+        linear-gradient(
+            120deg,
+            #101827,
+            #172b42
+        );
+
+    color: white;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+    padding: 80px max(
+        30px,
+        calc((100% - 1200px) / 2)
+    );
+
+    gap: 60px;
+}
+
+.hero-content {
+    max-width: 700px;
+}
+
+.hero h1 {
+    font-size: clamp(
+        45px,
+        6vw,
+        78px
+    );
+
+    line-height: 1.05;
+
+    margin-bottom: 25px;
+}
+
+.hero h1 span {
+    color: #35d07f;
+}
+
+.hero-text {
+    color: #cbd5e1;
+
+    font-size: 20px;
+
+    margin-bottom: 35px;
+}
+
+.button {
+    display: inline-block;
+
+    padding: 14px 25px;
+
+    background: #35d07f;
+
+    color: #101827;
+
+    text-decoration: none;
+
+    border-radius: 8px;
+
+    font-weight: bold;
+
+    transition: 0.3s;
+}
+
+.button:hover {
+    transform: translateY(-3px);
+}
+
+.security-card {
+    width: 320px;
+
+    padding: 35px;
+
+    background:
+        rgba(255, 255, 255, 0.08);
+
+    border:
+        1px solid
+        rgba(255, 255, 255, 0.15);
+
+    border-radius: 20px;
+
+    backdrop-filter: blur(10px);
+}
+
+.security-card .lock {
+    font-size: 55px;
+
+    margin-bottom: 20px;
+}
+
+.security-card h3 {
+    margin-bottom: 10px;
+}
+
+
+/* ================================
+   DEFINITION
+================================ */
+
+.definition {
+    display: grid;
+
+    grid-template-columns: 2fr 1fr;
+
+    gap: 50px;
+
+    font-size: 18px;
+}
+
+.definition p {
+    margin-bottom: 20px;
+}
+
+.warning-box {
+    background: white;
+
+    border-left:
+        5px solid
+        #35d07f;
+
+    padding: 30px;
+
+    border-radius: 10px;
+
+    box-shadow:
+        0 10px 30px
+        rgba(0, 0, 0, 0.06);
+}
+
+.warning-box ul {
+    margin-top: 15px;
+
+    padding-left: 20px;
+}
+
+
+/* ================================
+   SECTION SOMBRE
+================================ */
+
+.dark-section {
+    max-width: none;
+
+    background: #101827;
+
+    color: white;
+}
+
+.dark-section > * {
+    max-width: 1200px;
+
+    margin-left: auto;
+
+    margin-right: auto;
+}
+
+
+/* ================================
+   MENACES
+================================ */
+
+.cards {
+    display: grid;
+
+    grid-template-columns:
+        repeat(4, 1fr);
+
+    gap: 20px;
+}
+
+.card {
+    background: #172236;
+
+    padding: 30px;
+
+    border-radius: 15px;
+
+    border:
+        1px solid
+        #26364d;
+
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+
+    border-color: #35d07f;
+}
+
+.card-number {
+    color: #35d07f;
+
+    font-size: 14px;
+
+    font-weight: bold;
+
+    margin-bottom: 20px;
+}
+
+.card h3 {
+    font-size: 23px;
+
+    margin-bottom: 15px;
+}
+
+.card p {
+    color: #b9c4d3;
+
+    margin-bottom: 20px;
+}
+
+.card ul {
+    padding-left: 20px;
+
+    color: #dce3ee;
+}
+
+
+/* ================================
+   CAS REELS
+================================ */
+
+.real-cases {
+    max-width: none;
+
+    background: #f5f7fa;
+}
+
+.real-cases > * {
+    max-width: 1200px;
+
+    margin-left: auto;
+
+    margin-right: auto;
+}
+
+.real-cases-grid {
+    display: grid;
+
+    grid-template-columns:
+        repeat(2, 1fr);
+
+    gap: 30px;
+}
+
+.real-case {
+    background: white;
+
+    padding: 35px;
+
+    border-radius: 16px;
+
+    border:
+        1px solid
+        #e1e6ed;
+
+    box-shadow:
+        0 10px 30px
+        rgba(0, 0, 0, 0.05);
+
+    transition: 0.3s;
+}
+
+.real-case:hover {
+    transform: translateY(-7px);
+
+    border-color: #35d07f;
+
+    box-shadow:
+        0 15px 35px
+        rgba(0, 0, 0, 0.08);
+}
+
+.case-top {
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    margin-bottom: 20px;
+}
+
+.case-year {
+    background: #172033;
+
+    color: white;
+
+    padding: 6px 12px;
+
+    border-radius: 20px;
+
+    font-size: 13px;
+
+    font-weight: bold;
+}
+
+.case-country {
+    color: #667085;
+
+    font-size: 14px;
+}
+
+.case-icon {
+    font-size: 45px;
+
+    margin-bottom: 15px;
+}
+
+.real-case h3 {
+    font-size: 24px;
+
+    margin-bottom: 15px;
+}
+
+.real-case > p {
+    color: #596579;
+
+    margin-bottom: 15px;
+}
+
+.case-info {
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 4px;
+
+    padding: 15px 0;
+
+    border-top:
+        1px solid
+        #e5e7eb;
+}
+
+.case-info strong {
+    font-size: 14px;
+
+    color: #172033;
+}
+
+.case-info span {
+    font-size: 14px;
+
+    color: #596579;
+}
+
+.case-lesson {
+    margin-top: 15px;
+
+    padding: 18px;
+
+    background: #eefaf3;
+
+    border-left:
+        4px solid
+        #35d07f;
+
+    border-radius: 6px;
+
+    font-size: 14px;
+
+    color: #374151;
+}
+
+.case-lesson strong {
+    color: #172033;
+}
+
+
+/* ================================
+   BILAN DES CAS
+================================ */
+
+.cases-summary {
+    margin-top: 60px;
+
+    padding: 40px;
+
+    background: #101827;
+
+    color: white;
+
+    border-radius: 16px;
+}
+
+.cases-summary h3 {
+    font-size: 28px;
+
+    margin-bottom: 30px;
+}
+
+.summary-grid {
+    display: grid;
+
+    grid-template-columns:
+        repeat(3, 1fr);
+
+    gap: 30px;
+}
+
+.summary-grid div {
+    display: flex;
+
+    gap: 15px;
+
+    align-items: flex-start;
+}
+
+.summary-grid span {
+    color: #35d07f;
+
+    font-size: 25px;
+
+    font-weight: bold;
+}
+
+.summary-grid p {
+    color: #c5cedb;
+}
+
+
+/* ================================
+   PROTECTION
+================================ */
+
+.protection-grid {
+    display: grid;
+
+    grid-template-columns:
+        repeat(3, 1fr);
+
+    gap: 25px;
+}
+
+.protection-item {
+    background: white;
+
+    padding: 35px;
+
+    border-radius: 15px;
+
+    box-shadow:
+        0 10px 30px
+        rgba(0, 0, 0, 0.05);
+
+    transition: 0.3s;
+}
+
+.protection-item:hover {
+    transform: translateY(-5px);
+}
+
+.protection-item span {
+    font-size: 40px;
+}
+
+.protection-item h3 {
+    margin: 15px 0 10px;
+}
+
+
+/* ================================
+   PHISHING
+================================ */
+
+.phishing-section {
+    background: #eef2f7;
+
+    max-width: none;
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+}
+
+.phishing-section .section-title {
+    width: min(
+        1200px,
+        100%
+    );
+}
+
+.fake-message {
+    background: white;
+
+    width: min(
+        650px,
+        100%
+    );
+
+    padding: 30px;
+
+    border-radius: 15px;
+
+    box-shadow:
+        0 15px 40px
+        rgba(0, 0, 0, 0.1);
+}
+
+.message-header {
+    display: flex;
+
+    justify-content: space-between;
+
+    border-bottom:
+        1px solid
+        #ddd;
+
+    padding-bottom: 15px;
+
+    margin-bottom: 20px;
+}
+
+.fake-message button,
+.quiz-box button {
+    border: none;
+
+    background: #172033;
+
+    color: white;
+
+    padding: 12px 18px;
+
+    border-radius: 7px;
+
+    cursor: pointer;
+
+    margin-top: 15px;
+
+    transition: 0.3s;
+}
+
+.fake-message button:hover,
+.quiz-box button:hover {
+    background: #35d07f;
+
+    color: #101827;
+}
+
+#phishing-answer {
+    margin-top: 20px;
+
+    font-weight: bold;
+}
+
+
+/* ================================
+   QUE FAIRE EN CAS D'USURPATION
+================================ */
+
+.steps {
+    display: grid;
+
+    grid-template-columns:
+        repeat(3, 1fr);
+
+    gap: 20px;
+}
+
+.step {
+    padding: 25px;
+
+    background: #172236;
+
+    border-radius: 12px;
+}
+
+.step strong {
+    color: #35d07f;
+
+    font-size: 25px;
+}
+
+
+/* ================================
+   QUIZ
+================================ */
+
+.quiz-box {
+    background: white;
+
+    max-width: 750px;
+
+    padding: 40px;
+
+    border-radius: 15px;
+
+    box-shadow:
+        0 10px 30px
+        rgba(0, 0, 0, 0.07);
+}
+
+.quiz-box h3 {
+    margin-bottom: 15px;
+}
+
+.quiz-box button {
+    display: block;
+
+    width: 100%;
+
+    text-align: left;
+}
+
+#quiz-result {
+    margin-top: 25px;
+
+    font-weight: bold;
+}
+
+
+/* ================================
+   SOURCES
+================================ */
+
+.sources {
+    padding-bottom: 80px;
+}
+
+.sources ul {
+    padding-left: 25px;
+}
+
+.sources li {
+    margin-bottom: 10px;
+}
+
+
+/* ================================
+   FOOTER
+================================ */
+
+footer {
+    background: #101827;
+
+    color: #9ba8ba;
+
+    text-align: center;
+
+    padding: 35px;
+}
+
+footer p {
+    margin: 5px;
+}
+
+
+/* ================================
+   TABLETTE
+================================ */
+
+@media (max-width: 1000px) {
+
+    .menu {
+        gap: 12px;
+    }
+
+    .menu a {
+        font-size: 12px;
+    }
+
+    .cards {
+        grid-template-columns:
+            repeat(2, 1fr);
+    }
+
+    .protection-grid {
+        grid-template-columns:
+            repeat(2, 1fr);
+    }
+
+    .real-cases-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .summary-grid {
+        grid-template-columns: 1fr;
+    }
+
+}
+
+
+/* ================================
+   MOBILE
+================================ */
+
+@media (max-width: 700px) {
+
+    .menu {
+        display: none;
+    }
+
+    .hero {
+        flex-direction: column;
+
+        align-items: flex-start;
+
+        padding: 70px 20px;
+    }
+
+    .security-card {
+        width: 100%;
+    }
+
+    .section {
+        padding: 70px 20px;
+    }
+
+    .section-title h2 {
+        font-size: 32px;
+    }
+
+    .definition {
+        grid-template-columns: 1fr;
+    }
+
+    .cards {
+        grid-template-columns: 1fr;
+    }
+
+    .protection-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .steps {
+        grid-template-columns: 1fr;
+    }
+
+    .real-cases-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .summary-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .cases-summary {
+        padding: 25px;
+    }
+
+    .hero h1 {
+        font-size: 48px;
+    }
+
+}
